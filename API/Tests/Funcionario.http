@@ -1,0 +1,11 @@
+### Cadastrar funcionario
+POST https://localhost:5001/api/funcionario/create
+Content-Type: application/json
+
+{
+    "Name" : "Sara Alves Vieira",
+    "Registration": "1234"
+}
+
+### Listar funcioanrios
+GET https://localhost:5001/api/funcionario/listFuncionarios
